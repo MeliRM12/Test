@@ -1,0 +1,51 @@
+.backgroundDark{
+    background-color: $azul-oscuro;
+    padding: 126px 0 145px 0;
+}
+
+.backgroundImage1{
+    background-image: url('../../images/pattern.svg');
+    background-repeat: no-repeat;
+}
+
+
+.backgroundImage2{
+    background-image: url('../../images/pattern.svg'), url('../../images/pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+}
+
+.mediumSection{
+    
+    position: relative;
+
+    h2{
+        color: $blanco;
+        font-family: $tipografia-bold;
+        width: 724px;
+        line-height: 1.5;
+    }
+
+    & .container div{
+        background-color: $gris;
+        color: $azul-oscuro;
+        position: absolute;
+        right: 0;
+        @include border-radius(18px);
+        @include box-shadow(0 5px 7px rgba($shadow-color, 0.16));
+        background-repeat: no-repeat, no-repeat;
+
+        p{
+            line-height: 1.5;
+            font-family: $tipografia-italic;
+            margin: 0;
+        }
+    }
+}
+
+.backgroundWhite{
+    padding: 126px 0 145px 0;   
+}
+
+
+
+

@@ -1,0 +1,491 @@
+@media (min-width: 1440px){
+    .container {
+        width: 1640px;
+    }
+    nav ul li {
+        font-size: 20px;
+        padding-right: 72px;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 1200px){
+    .container {
+        width: 1040px;
+    }
+    nav ul li {
+        font-size: 18px;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 1024px){
+    .menuIcon{
+        display: none;
+    }
+
+    .navSide{
+        display: none;
+    }
+
+    .rowText{
+        h1{
+            width: 1088px;
+            font-size: 80px;
+        }
+
+        p{
+            font-size: 32px;
+            width: 950px;
+        }
+    }
+
+    .heroTop{
+        padding: 132px 0 145px 0;
+        background-image: url('../../images/house-hero-large.svg');
+    }
+
+    .backgroundImage1{
+        background-position: left 134px top 76px;
+    }
+
+    .mediumSection {
+        .container {
+            div{
+                padding: 142px 95px;
+                width: 874px;
+                top: 50%;
+                background-image: url('../../images/left-quotes-sign.svg'), url('../../images/right-quote-sign.svg');
+                background-position: top 32px left 32px, bottom 32px right 32px;
+            }
+
+            p{
+                font-size: 32px;
+            }
+        }
+
+        h2{
+            font-size: 48px;
+        }
+    }
+
+    .backgroundImage2{
+        background-position: left 134px top -424px,bottom -288px right 126px;
+    }
+
+    .boxTextTop,
+    .boxTextBotom{
+        p{
+            font-size: 32px;
+        }
+    }
+
+    .backgroundWhite{
+    
+        .container:last-child{
+            justify-content: flex-end;
+    
+            & div{
+                width: 810px;
+                padding-top: 110px;
+    
+                p{
+                    line-height: 1.5
+                }
+            }
+        }
+    }
+
+    .boxTextTop{
+        width: 810px;
+        padding-top: 209px;
+    
+        p{
+            line-height: 1.5
+        }
+    }
+
+    .backgroundImage3{
+        background-repeat: no-repeat;
+        background-position: left -325px bottom -65px;
+        background-image: url('../../images/construction-illustration-large.svg');
+    }
+
+
+    .boxCard{
+        padding: 140px 0;
+        .container:last-child{
+            justify-content: center;
+            padding-top: 144px;
+    
+            & h3{
+                color: $rojo;
+            }
+        }
+    }
+
+    .card-list{
+        display: flex;
+        justify-content: space-evenly;
+
+        div{
+            margin-right: 95px;
+            width: 480px;
+            padding: 48px 56px;
+        }
+
+        h3{
+            font-size: 32px;
+            margin: 0 0 32px 0;
+        }
+    
+        p{
+            font-size: 24px;
+        }
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+    .container {
+        width: 608px;
+    }
+
+    nav{
+        ul{
+            display: none;
+        }
+
+        button{
+            margin-right: 40px;
+        }
+    }
+
+    .menuIcon{
+        display: block;
+    }
+
+    .heroTop{
+        padding: 142px 0 283px;
+        background-image: url('../../images/house-searching-illustration-medium.svg');
+    }
+
+    .rowText{
+        h1{
+            font-size: 64px;
+        }
+
+        p{
+            font-size: 24px;
+        }
+    }
+
+    .mediumSection {
+        .container {
+            div{
+                padding: 96px 48px;
+                width: 530px;
+                top: 107%;
+                background-image: url('../../images/left-quotes-sign-small.svg'), url('../../images/left-quotes-sign-small.svg');
+                background-position: top 20px left 20px, bottom 20px right 20px;          
+            }
+
+            p{
+                font-size: 24px;
+            }
+
+            h2{
+                font-size: 32px;
+            }
+        }
+    }
+
+    .backgroundImage2{
+        background-position: left 0px top -424px,bottom -0 right -10000px;
+    }
+
+    .boxTextTop,
+    .boxTextBotom{
+        p{
+            font-size: 24px;
+        }
+    }
+
+    .backgroundWhite{
+    
+        .container:last-child{
+            justify-content: flex-end;
+    
+            & div{
+                width: 810px;
+                 padding-top: 80px;
+    
+                p{
+                    line-height: 1.5
+                }
+            }
+        }
+    }
+
+    .boxTextTop{
+        width: 810px;
+        padding-top: 165px;
+    
+        p{
+            line-height: 1.5
+        }
+    }
+
+    .boxCard{
+        padding: 96px 0 380px;
+    }
+
+    .card-list{
+       text-align: center;
+        
+        div{
+            width: 480px;
+            display: inline-block;
+            padding: 48px 56px;
+            margin-bottom: 96px;
+        }
+        h3{
+            font-size: 32px;
+            margin: 0 0 16px 0;
+            text-align: center;
+        }
+    
+        p{
+            font-size: 24px;
+        }
+    }
+
+    .backgroundImage3{
+        background-position: left -62px bottom 78px;
+        background-image: url('../../images/construction-illustration-medium.svg');
+    }
+
+    footer ul li {
+        padding: 12px 0;
+    }
+    
+}
+
+@media(min-width: 768px){
+    .logo{
+        width: 179px;
+        height: 40px;
+        background-image: url('../../images/logo.svg');
+    }
+
+    .menuIcon{
+        width: 48px;
+        height: 32px;
+    }
+
+    
+
+    .navbar{
+        padding: 14px 0;
+    }
+
+    .navSide .contactUs{
+        display: none;
+    }
+
+    .navSide{
+        ul{
+            li{
+                &:first-child{
+                    color: $light-green;
+                }
+            }
+        }
+    }
+
+    .navSide{
+        display: block;
+        width: 250px;
+        right: -272px;
+
+        ul li{
+            padding: 10px 0;
+        }
+    }
+
+    
+    footer .container{
+        div{
+            width: 50%;
+        }
+
+        & div:last-child{
+            text-align: right;
+        }
+    }
+
+}
+
+
+@media(max-width: 767px){
+
+    .navbar{
+        padding: 12px 0;
+    }
+    .container {
+        width: 320px;
+    }
+    .navSide{
+        right: -500px;
+        width: 100%;
+        text-align: center;
+
+        ul{
+            li{
+                padding: 20px 0;
+            }
+        }
+    }
+
+    nav{
+        ul,
+        button{
+            display: none;
+        }
+    }
+
+    .logo{
+        background-image: url('../../images/logo-small.svg');
+        width: 107px;
+        height: 24px;
+    }
+
+    .menuIcon{
+        width: 32px;
+        height: 21px;
+    }
+
+    .contactUs{
+        margin-top: 30px;
+    }
+
+    .navSide{
+        ul{
+            li{
+                &:first-child{
+                    display: none;
+                }
+            }
+        }
+    }
+    .heroTop{
+        padding: 60px 0 243px;
+        background-position: left .13px bottom 0 !important;
+        background-image: url('../../images/house-searching-illustration-small.svg');
+    }
+
+    .rowText button{
+        margin-top: 10px;
+    }
+    
+    .rowText{
+        text-align: center;
+    }
+
+    .rowText{
+        h1,
+        p{
+            text-align: left;
+        }
+    }
+
+    .mediumSection {
+        .container {
+            div{
+                text-align: center;
+                padding: 83px 48px;
+                width: 100%;
+                top: 125%;
+                background-image: url('../../images/left-quotes-sign-small.svg'), url('../../images/left-quotes-sign-small.svg');
+                background-position: top 20px left 20px, bottom 20px right 20px;          
+            }
+
+            p{
+                font-size: 18px;
+            }
+
+            h2{
+                font-size: 24px;
+            }
+        }
+    }
+
+    .backgroundDark{
+        padding: 48px 0 96px!important;
+    }
+
+    .backgroundImage1{
+        background-position: left 31px top 27px;
+    }
+
+    .boxTextTop,
+    .boxTextBotom{
+        p{
+            font-size: 16px;
+        }
+    }
+
+    .boxTextTop{
+        padding-top: 209px;
+    }
+
+    .backgroundImage2{
+        background-position: left 0 top -551px,bottom 0 right -10000px;
+    }
+
+    .backgroundWhite {
+        padding: 125px 0 !important;
+    }
+
+    .boxCard{
+        padding: 20px 0 280px;
+
+        .container{
+            &:last-child{
+                h3{
+                    color: $rojo;
+                }
+            }
+        }
+    }
+
+    .card-list{
+        div{
+            padding: 36px 49px;
+            margin-bottom: 20px;
+        }
+        h3{
+            font-size: 24px;
+            text-align: center;
+            margin: 0 0 16px 0;
+        }
+    
+        p{
+            font-size: 18px;
+        }
+    }
+
+    .backgroundImage3{
+        background-position: bottom;
+        background-image: url('../../images/construction-illustration-small.svg');
+    }
+
+    footer .container{
+        text-align: center;
+        display: block;
+
+        & div:last-child(){
+            text-align: center !important;
+        }
+    }
+
+}

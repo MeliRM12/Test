@@ -1,0 +1,31 @@
+/**
+*   VARIABLES STYLES
+**/
+
+@mixin border-radius($r) {
+    border-radius: $r;
+}
+
+@mixin box-shadow($shadow...) {
+    -webkit-box-shadow: $shadow;
+       -moz-box-shadow: $shadow;       
+            box-shadow: $shadow;
+}
+
+$shadow-color: #000000;  // could also be a hex (like #F9F8F6) type color
+
+
+$tipografia-medium: "Poppins-medium";
+$tipografia-bold: "Poppins-bold";
+$tipografia-black: "Poppins-black";
+$tipografia-Semibold: "Poppins-Semibold";
+$tipografia-italic: "Poppins-italic";
+
+
+
+$azul-oscuro: #364F6B;
+$blanco: #ffffff;
+$rojo: #FC5185;
+$negro: #000000;
+$light-green: #3FC1C9;
+$gris: #F5F5F5;

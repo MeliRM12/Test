@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="840" viewBox="0 0 800 840">
+  <g id="pattern" transform="translate(-4)" opacity="0.1">
+    <path id="Trazado_36" data-name="Trazado 36" d="M324,420l80,140H244Z" fill="#00d2df"/>
+    <path id="Trazado_37" data-name="Trazado 37" d="M484,420l80,140H404Z" fill="#00bfcc"/>
+    <path id="Trazado_38" data-name="Trazado 38" d="M644,420l80,140H564Z" fill="#00adb8"/>
+    <path id="Trazado_39" data-name="Trazado 39" d="M404,560l80-140H324Z" fill="#00d2df"/>
+    <path id="Trazado_40" data-name="Trazado 40" d="M564,560l80-140H484Z" fill="#00adb8"/>
+    <path id="Trazado_41" data-name="Trazado 41" d="M724,560l80-140H644Z" fill="#00d2df"/>
+    <path id="Trazado_42" data-name="Trazado 42" d="M644,700l80,140H564Z" fill="#00bfcc"/>
+    <path id="Trazado_43" data-name="Trazado 43" d="M564,840l80-140H484Z" fill="#00d2df"/>
+    <path id="Trazado_44" data-name="Trazado 44" d="M724,840l80-140H644Z" fill="#00adb8"/>
+    <path id="Trazado_45" data-name="Trazado 45" d="M644,420l80-140H564Z" fill="#009aa5"/>
+    <path id="Trazado_46" data-name="Trazado 46" d="M564,280l80,140H484Z" fill="#00d2df"/>
+    <path id="Trazado_47" data-name="Trazado 47" d="M724,280l80,140H644Z" fill="#00d2df"/>
+    <path id="Trazado_48" data-name="Trazado 48" d="M324,700l80-140H244Z" fill="#009aa5"/>
+    <path id="Trazado_49" data-name="Trazado 49" d="M484,700l80-140H404Z" fill="#00bfcc"/>
+    <path id="Trazado_50" data-name="Trazado 50" d="M644,700l80-140H564Z" fill="#00bfcc"/>
+    <path id="Trazado_51" data-name="Trazado 51" d="M404,560l80,140H324Z" fill="#00d2df"/>
+    <path id="Trazado_52" data-name="Trazado 52" d="M564,560l80,140H484Z" fill="#08f0ff"/>
+    <path id="Trazado_53" data-name="Trazado 53" d="M724,560l80,140H644Z" fill="#00d2df"/>
+    <path id="Trazado_54" data-name="Trazado 54" d="M484,420,404,280H564Z" fill="#00bfcc"/>
+    <path id="Trazado_55" data-name="Trazado 55" d="M324,420,244,280H404Z" fill="#08f0ff"/>
+    <path id="Trazado_56" data-name="Trazado 56" d="M164,420,84,280H244Z" fill="#00adb8"/>
+    <path id="Trazado_57" data-name="Trazado 57" d="M404,280,324,420H484Z" fill="#08f0ff"/>
+    <path id="Trazado_58" data-name="Trazado 58" d="M244,280,164,420H324Z" fill="#009aa5"/>
+    <path id="Trazado_59" data-name="Trazado 59" d="M84,280,4,420H164Z" fill="#08f0ff"/>
+    <path id="Trazado_60" data-name="Trazado 60" d="M164,140,84,0H244Z" fill="#08f0ff"/>
+    <path id="Trazado_61" data-name="Trazado 61" d="M244,0,164,140H324Z" fill="#00bfcc"/>
+    <path id="Trazado_62" data-name="Trazado 62" d="M84,0,4,140H164Z" fill="#009aa5"/>
+    <path id="Trazado_63" data-name="Trazado 63" d="M164,420,84,560H244Z" fill="#08f0ff"/>
+    <path id="Trazado_64" data-name="Trazado 64" d="M244,560,164,420H324Z" fill="#00bfcc"/>
+    <path id="Trazado_65" data-name="Trazado 65" d="M84,560,4,420H164Z" fill="#009aa5"/>
+    <path id="Trazado_66" data-name="Trazado 66" d="M484,140,404,280H564Z" fill="#00adb8"/>
+    <path id="Trazado_67" data-name="Trazado 67" d="M324,140,244,280H404Z" fill="#00adb8"/>
+    <path id="Trazado_68" data-name="Trazado 68" d="M164,140,84,280H244Z" fill="#00bfcc"/>
+    <path id="Trazado_69" data-name="Trazado 69" d="M404,280,324,140H484Z" fill="#009aa5"/>
+    <path id="Trazado_70" data-name="Trazado 70" d="M244,280,164,140H324Z" fill="#00adb8"/>
+    <path id="Trazado_71" data-name="Trazado 71" d="M84,280,4,140H164Z" fill="#08f0ff"/>
+  </g>
+</svg>

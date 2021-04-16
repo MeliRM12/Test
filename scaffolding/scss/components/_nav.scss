@@ -1,0 +1,86 @@
+.navbar{
+    background-color: $azul-oscuro;
+}
+
+.logo{
+    display: inline-block;
+}
+
+nav{
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end;
+
+    ul{
+        list-style: none;
+        padding: 0;
+        flex-direction: row;
+        margin: 0;
+
+        li{
+            color:$blanco;
+            width: auto;
+            display: inline-block;
+        }
+
+    }
+}
+
+.contactUs{
+    border: none;
+    background-color: $rojo;
+    color: $blanco;
+    width: 177px;
+    height: 44px;
+    font-family: $tipografia-bold;
+    @include border-radius(25px);
+    font-size: 20px;
+
+    &:hover{
+        cursor: pointer;
+        color: $azul-oscuro;
+    }
+}
+
+.menuIcon{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.openMenu{
+    background-image: url('../../images/menu-btn.svg');
+}
+
+.closeMenu{
+    background-image: url('../../images/menu-btn-close.svg');
+}
+
+.navSide{
+    height: 100%;
+    position: fixed;
+    background: $azul-oscuro;
+    overflow-x: hidden;
+    padding: 30px;
+    transition: 0.5s;
+    z-index: 2;
+
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+
+        li{
+            color: $blanco;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}
+
+.animateMenu{
+    right: 0;
+}
